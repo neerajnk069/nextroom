@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.vertical-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background: #fff;
+  z-index: 1000;
+  overflow: hidden; 
+}
+
+.navbar-brand-box {
+  height: 70px;
+}
+
+.sidebar-menu-scroll {
+  height: calc(100vh - 70px);
+  overflow-y: auto;      
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+
